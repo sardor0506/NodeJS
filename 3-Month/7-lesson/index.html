@@ -4,17 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .parent{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
 </head>
 <body>
 
-     <form class="js-form" autocomplete="off">
-        <input type="text"  class="js-username" name="username">
-        <input type="email" class="js-email" name="email">
-        <input type="password" class="js-password" name="password">
+    <!-- <form class="js-form" autocomplete="off">
+    <input type="text"  class="js-username" name="username">
+    <input type="email" class="js-email" name="email">
+    <input type="password" class="js-password" name="password">
+    <button>Submit</button>
+    </form> -->
+    <form class="js-form">
+        <input type="text" class="js-fizzbuzz-val">
         <button>Submit</button>
-     </form>
+    </form>
+    
+    <div class="parent">
+        <div>
+            <h3>Fizz sonlar</h3>
+            <ul class="js-fizz-list">
 
-     
+            </ul>
+        </div>
+        <div>
+            <h3>Buzz sonlar</h3>
+            <ul class="js-buzz-list">
+
+            </ul>
+        </div>
+        <div>
+            <h3>Fizz Buzz sonlar</h3>
+            <ul class="js-fizzbuzz-list">
+
+            </ul>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
